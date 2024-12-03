@@ -28,7 +28,7 @@ jobs:
       - name: Compile Java Files
         run: |
           mkdir -p bin
-          javac -d bin src/main/java/com/example/Calculator.java src/test/java/com/example/CalculatorTest.java
+          javac -d bin src/main/java/Calculator.java src/test/java/CalculatorTest.java
 
       # Step 4: Run JUnit Tests
       - name: Run Tests
